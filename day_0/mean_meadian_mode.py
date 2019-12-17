@@ -85,7 +85,7 @@ class Solution:
         print(f'Mode: {self.mode()}')
 
 
-if __name__ is "__main__":
+if __name__ == '__main__':
     generator = Generator()
     generator.gen_size()
     generator.gen_data()
