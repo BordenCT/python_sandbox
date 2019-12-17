@@ -5,8 +5,10 @@ Objective:
     In this challenge we practice the mean, median, and mode.
 
 Task:
-    Given an array, X, of N integers, calculate and print the respective mean, median and mode on separate lines.
-    If your array contains more than one modal value, choose the numerically smallest one.
+    Given an array, X, of N integers, calculate and print the respective
+    mean, median and mode on separate lines.
+    If your array contains more than one modal value, choose the
+    numerically smallest one.
 
 Constraints:
     10 <= N <= 2500
@@ -14,13 +16,18 @@ Constraints:
 
 Output Format:
     Print 3 lines of output in the following order:
-    1. Print the mean on a new line,  to a scale on 1 decimal place (i.e., 12.3, 7.0)
-    2. Print the median on a new line,  to a scale on 1 decimal place (i.e., 12.3, 7.0)
-    3. Print the mode of a new line; if more than one such value exists, print the numerically smallest one.
+    1. Print the mean on a new line,  to a scale on 1 decimal place
+        (i.e., 12.3, 7.0)
+    2. Print the median on a new line,  to a scale on 1 decimal place
+        (i.e., 12.3, 7.0)
+    3. Print the mode of a new line; if more than one such value
+        exists, print the numerically smallest one.
 
 Note:
-    Since this problem is from hackerrank.com, The beginning portion of the code will contain reading the stdin method.
-However, since here we do not have any stdin, we will create a generator that satisfies the constraints of the problem.
+    Since this problem is from hackerrank.com, The beginning portion of
+    the code will contain reading the stdin method.
+However, since here we do not have any stdin, we will create a generator
+ that satisfies the constraints of the problem.
 """
 
 # import sys
