@@ -85,9 +85,10 @@ class Solution:
         print(f'Mode: {self.mode()}')
 
 
-generator = Generator()
-generator.gen_size()
-generator.gen_data()
+if __name__ is "__main__":
+    generator = Generator()
+    generator.gen_size()
+    generator.gen_data()
 
-solution = Solution(generator.size, generator.data)
-solution.print_ans()
+    solution = Solution(generator.size, generator.data)
+    solution.print_ans()
